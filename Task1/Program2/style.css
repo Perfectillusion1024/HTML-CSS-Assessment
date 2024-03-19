@@ -1,0 +1,25 @@
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center; /* 居中标题 */
+}
+
+table {
+    width: 800px; /* 设置表格的固定宽度 */
+    margin: 0 auto; /* 水平居中表格 */
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #0C0DF0;
+    padding: 10px;
+    text-align: center;
+}
+
+th:hover {
+    background-color: red;
+}
+td:hover {
+    background-color: red;
+}

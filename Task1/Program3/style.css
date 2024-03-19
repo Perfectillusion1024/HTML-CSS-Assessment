@@ -1,0 +1,45 @@
+/* styles.css */
+
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: center; /* 居中标题 */
+}
+
+.enquiry-form {
+    width: 600px; /* 设置表单的固定宽度 */
+    margin: 0 auto; /* 水平居中表单 */
+    border: 1px solid #0C0DF0; /* 蓝色边框 */
+    background-color: #F5D026; /* 黄色背景 */
+    padding: 20px; /* 添加内边距 */
+}
+
+.enquiry-form label {
+    font-size: 14px; /* 字体大小 */
+    color: black; /* 字体颜色 */
+}
+
+.enquiry-form select,
+.enquiry-form textarea,
+.enquiry-form input[type="text"],
+.enquiry-form input[type="email"] {
+    width: 100%;
+    width: 580px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid hsl(240, 90%, 49%);
+     
+}
+
+.enquiry-form button {
+    background-color: #0C0DF0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.enquiry-form button:hover {
+    background-color: red; /* 鼠标悬停时的颜色 */
+}
