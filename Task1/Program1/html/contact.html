@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Enquiry Form</title>
-    <link rel="stylesheet" href="/AsscessmentTask1/Program3/style.css">
+    <link rel="stylesheet" href="/Task1/Program1/CSS/contact.css">
+    <link rel="stylesheet" href="/Task1/Program1/CSS/index.css">
 </head>
 <body>
+    <header>
+        <div class="logo"><img src="/Task1/Program1/imgs/Melbourne.png" style="width: 75px" ></div>
+        <nav><!--CSS Navigation Bar-->
+            <ul>
+                <li><a href="/Task1/Program1/html/index.html" >Home</a></li>
+                <li><a href="/Task1/Program1/html/Services.html">Services</a></li>
+                <li><a href="/Task1/Program1/html/contact.html" class="active">Contact</a></li>
+                <li><a href="/Task1/Program1/html/about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Product Enquiry Form</h1>
     <form class="enquiry-form">
         <label for="full-name">Full Name:</label>
@@ -16,7 +28,7 @@
         <input type="email" id="email" name="email" placeholder="john@mail.com" required  >
 
         <label for="product">Product:</label>
-        <select id="product" name="product" style="width: 580px">
+        <select id="product" name="product" style="width: 100%">
             <option value="select">Select</option>
             
         </select>

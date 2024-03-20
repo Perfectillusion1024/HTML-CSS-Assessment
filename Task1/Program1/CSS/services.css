@@ -6,20 +6,24 @@ h1 {
 }
 
 table {
-    width: 800px; /* 设置表格的固定宽度 */
-    margin: 0 auto; /* 水平居中表格 */
-    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #0C0DF0;
 }
 
 th, td {
     border: 1px solid #0C0DF0;
-    padding: 10px;
+    padding: 0%;
     text-align: center;
 }
 
+
 th:hover {
-    background-color: red;
+    border: 3px solid red;
 }
 td:hover {
-    background-color: red;
+    border: 3px solid red;
+}
+.img{
+    width: 100%;
 }
