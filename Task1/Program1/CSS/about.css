@@ -21,3 +21,9 @@ p {
 body{
     padding-left: 10%;
 }
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 40px;
+}
